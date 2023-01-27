@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido {{user}}</title>
+</head>
+<body>
+    {% if status == True %}
+     <h2>Bienvenido {{user}} usted esta conectado</h2>
+    {% elif status == False %}
+    <h2>Usted esta desconectado</h2>
+    {% endif %}
+</body>
+</html>
